@@ -10,3 +10,8 @@ def market_to_book_ratio(market_value, book_value):
   return m2b_ratio_rounded
 
 print(market_to_book_ratio(222.5,1454))
+
+def total_capitalization(longterm_debt, shareholders_equity):
+  return longterm_debt + shareholders_equity
+
+print(total_capitalization(100,100))
