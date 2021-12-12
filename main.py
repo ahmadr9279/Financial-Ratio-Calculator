@@ -15,3 +15,6 @@ def total_capitalization(longterm_debt, shareholders_equity):
   return longterm_debt + shareholders_equity
 
 print(total_capitalization(100,100))
+
+def fv_for_savings(pv,interest_rate,terms):
+  return pv*((1+interest_rate)^terms)
