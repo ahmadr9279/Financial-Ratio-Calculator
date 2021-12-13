@@ -18,3 +18,6 @@ print(total_capitalization(100,100))
 
 def fv_for_savings(pv,interest_rate,terms):
   return pv*((1+interest_rate)^terms)
+
+def bond_yield(ann_cuopon_payment,bond_price):
+  return ann_cuopon_payment/bond_price
